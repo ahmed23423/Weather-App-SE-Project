@@ -42,7 +42,7 @@ class MyAppState extends State<MyApp> implements PresentationManager {
             debugShowCheckedModeBanner: ConstantsManager.showBanner,
             theme: AppTheme.lightTheme,
             darkTheme: AppTheme.darkTheme,
-            initialRoute: AppRoutes.home,
+            initialRoute: AppRoutes.login,
             onGenerateRoute: AppRoutesGenerator.getRoute,
             localizationsDelegates: Constants.localizationsDelegates,
             supportedLocales: Constants.supportedLocales,
